@@ -82,7 +82,7 @@ if [ $1 = "rpm" ]
 		echo "########################################"
 		
 		cd /usr/local/src/
-		wget wget http://ftp.otrs.org/pub/otrs/RPMS/rhel/6/otrs-3.3.5-02.noarch.rpm
+		wget http://ftp.otrs.org/pub/otrs/RPMS/rhel/6/otrs-3.3.5-02.noarch.rpm
 		rpm -ivh otrs-3.3.5-02.noarch.rpm
 fi
 
